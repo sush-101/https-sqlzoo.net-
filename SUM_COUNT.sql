@@ -1,6 +1,7 @@
 #6. For each continent show the continent and number of countries.
 
-select continent, count(*) from world group by continent 
+select continent, count(*) from world
+group by continent 
 
 # 7. For each continent show the continent and number of countries with populations of at least 10 million.
 
